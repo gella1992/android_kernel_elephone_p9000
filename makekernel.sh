@@ -1,6 +1,6 @@
 #!/bin/bash
 DEFCONFIG=cm_p9000_defconfig
-KERNEL=kernel
+KERNEL=cm
 if [  -f $KERNEL ]; then
 	rm $KERNEL
 fi
